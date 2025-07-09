@@ -1,1 +1,21 @@
+class Main{
+public static void main(String args[])
+{
+System.out.println(".....MY FAMILY DETAILS......");
+System.out.println("My name is Shivateja");
+System.out.println("My Father name is Thirupthi");
+System.out.println("My Mother name is Rajeshwari");
+System.out.println("My Sister name is Akshaya");
+System.out.println("......MY COLLAGE DETAILS......");
+System.out.println("My name is Shivateja");
+System.out.println("My Collage name is Nalla Narasimha reddy Collage");
+System.out.println("My roll no 227Z5A0505");
+System.out.println("My Branch is Computer Science and Engineering");
+System.out.println("Batch was 2025");
+System.out.println("CGPA 8.2");
+System.out.println(".....................");
+}
+}
+
+
 
