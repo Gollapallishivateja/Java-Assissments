@@ -1,0 +1,30 @@
+ package shiva;
+
+class Operator {
+    static int a = 10;
+    static int b = 20;
+}
+class Nonstatic {
+    int val1;
+    int val2;
+}
+public class ArthimaticOperator {
+    public static void main(String args[]) {
+        System.out.println("............... Static method by arithmetic operations ..............");
+        System.out.println("Addition operator: " + Operator.a + " + " + Operator.b + " = " + (Operator.a + Operator.b));
+        System.out.println("Subtraction operator: " + Operator.a + " - " + Operator.b + " = " + (Operator.a - Operator.b));
+        System.out.println("Multiplication operator: " + Operator.a + " * " + Operator.b + " = " + (Operator.a * Operator.b));
+        System.out.println("Division operator: " + Operator.a + " / " + Operator.b + " = " + (Operator.a / Operator.b));
+        System.out.println("Modulo operator: " + Operator.a + " % " + Operator.b + " = " + (Operator.a % Operator.b));
+
+        System.out.println("\n............... Non-static method by arithmetic operations ..............");
+        Nonstatic obj = new Nonstatic();
+        obj.val1 = 100;
+        obj.val2 = 200;
+        System.out.println("Addition operator: " + obj.val1 + " + " + obj.val2 + " = " + (obj.val1 + obj.val2));
+        System.out.println("Subtraction operator: " + obj.val1 + " - " + obj.val2 + " = " + (obj.val1 - obj.val2));
+        System.out.println("Multiplication operator: " + obj.val1 + " * " + obj.val2 + " = " + (obj.val1 * obj.val2));
+        System.out.println("Division operator: " + obj.val1 + " / " + obj.val2 + " = " + (obj.val1 / obj.val2));
+        System.out.println("Modulo operator: " + obj.val1 + " % " + obj.val2 + " = " + (obj.val1 % obj.val2));
+    }
+}
