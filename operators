@@ -1,0 +1,28 @@
+public class Operators {
+	public static void main(String[] args)
+	{
+		int a=10;
+		int b=20;
+		System.out.println("Assignment operator");
+		System.out.println(a=b);
+		System.out.println(a+=10);
+		System.out.println(a-=10);
+		System.out.println(a*=10);
+		System.out.println(a/=2);
+        System.out.println(a%=2);
+        System.out.println(a);
+        System.out.println("Relational operator");
+        System.out.println(a==b);
+        System.out.println(a>b);
+        System.out.println(a<b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+		System.out.println(a!=20);
+        System.out.println("logical operator");
+        System.out.println(a==b&&a>=b);
+		System.out.println(a>=b||a<=10);
+		System.out.println(a!=20);
+		
+	}
+
+}
