@@ -1,0 +1,40 @@
+class Addition {
+    public static void compute(int a, int b) {
+        System.out.println("Addition = " + (a + b));
+    }
+}
+
+class Subtraction {
+    public static void compute(int a, int b) {
+        System.out.println("Subtraction = " + (a - b));
+    }
+}
+
+class Multiplication {
+    public static void compute(int a, int b) {
+        System.out.println("Multiplication = " + (a * b));
+    }
+}
+
+class Division {
+    public static void compute(int a, int b) {
+        System.out.println("Quotient = " + (a / b));
+    }
+}
+
+class Modulus {
+    public static void compute(int a, int b) {
+        System.out.println("Remainder = " + (a % b));
+    }
+}
+
+public class MethodsOnArithmeticOperation {
+    public static void main(String[] args) {
+        int a = 20, b = 5;
+        Addition.compute(a, b);
+        Subtraction.compute(a, b);
+        Multiplication.compute(a, b);
+        Division.compute(a, b);
+        Modulus.compute(a, b);
+    }
+}
