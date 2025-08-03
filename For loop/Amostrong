@@ -1,0 +1,38 @@
+package problemsloving;
+
+public class Amostrong {
+	public static void main(String args[])
+	{
+		int n=153;
+		int temp=n;
+		int temp1=n;
+		int count=0;
+		while(n>0) {
+			int digit=n%10;
+			count++;
+			n/=10;
+			
+		} 
+		int sum=0;
+		while(temp>0)
+		{  
+			int product=1;
+			int digit=temp%10;
+			for(int i=1;i<=count;i++)
+			{
+				product*=digit;
+			}
+			sum+=product;
+			temp/=10;
+		}
+		if(temp1==sum)
+		{
+			System.out.println(temp1+" Amstrong");
+		}
+		else
+		{
+			System.out.println(temp1+"  Amstrong");
+		}
+	}
+
+}
