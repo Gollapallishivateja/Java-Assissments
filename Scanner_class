@@ -1,0 +1,48 @@
+package problemsloving;
+import java.util.*;
+
+public class Datatypes {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter byte value");
+        byte b = sc.nextByte();
+
+        System.out.println("Enter short value");
+        short s = sc.nextShort();
+
+        System.out.println("Enter integer value");
+        int n = sc.nextInt();
+
+        System.out.println("Enter long value");
+        long l = sc.nextLong();
+
+        System.out.println("Enter double value");
+        double d = sc.nextDouble();
+
+        System.out.println("Enter float value");
+        float f = sc.nextFloat();
+
+        System.out.println("Enter char value");
+        char ch = sc.next().charAt(0);
+
+        System.out.println("Enter boolean value");
+        boolean bool = sc.nextBoolean();
+
+        sc.nextLine(); 
+
+        System.out.println("Enter string value");
+        String str = sc.nextLine();
+
+        System.out.println("\n---- Output ----");
+        System.out.println("Byte: " + b);
+        System.out.println("Short: " + s);
+        System.out.println("Integer: " + n);
+        System.out.println("Long: " + l);
+        System.out.println("Double: " + d);
+        System.out.println("Float: " + f);
+        System.out.println("Char: " + ch);
+        System.out.println("Boolean: " + bool);
+        System.out.println("String: " + str);
+    }
+}
